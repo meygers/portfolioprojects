@@ -49,7 +49,7 @@ Where continent is not null
 Group by location
 Order by TotalDealthCount desc
 
--- LETS BREAK THINGS DOWN BY CONTINENT
+
 -- Showing continent with highest death count per population
 
 Select continent, MAX(cast(total_deaths as int)) as TotalDealthCount
